@@ -39,6 +39,7 @@ int main(int argc, char* argv[])
 	
 	printf("Message from server: %s \n", message);  
 	close(sock);
+
 	return 0;
 }
 
